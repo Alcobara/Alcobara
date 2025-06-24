@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alcobara Construcciones S.L.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1c2d45;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #1c2d45;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0f1a2e;
+      display: flex;
+      justify-content: center;
+      padding: 0.75rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091215367-59b6b3c95cba') no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    .hero h1 {
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section-box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      padding: 2rem;
+    }
+    .projects img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #1c2d45;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alcobara Construcciones S.L.</h1>
+    <p>Construimos tu futuro con calidad y confianza</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Bienvenidos a Alcobara</h1>
+    <p>Empresa de construcción especializada en reformas, obra nueva y más.</p>
+  </section>
+
+  <section class="section-box" id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Reformas integrales</li>
+      <li>Obra nueva</li>
+      <li>Mantenimiento de edificios</li>
+      <li>Dirección y gestión de obras</li>
+    </ul>
+  </section>
+
+  <section class="section-box projects" id="proyectos">
+    <h2>Proyectos recientes</h2>
+    <p>Ejemplos de obras y reformas realizadas por nuestro equipo.</p>
+    <img src="https://images.unsplash.com/photo-1590652913034-fd7d0bcd4a75" alt="Proyecto de construcción">
+  </section>
+
+  <section class="section-box contact" id="contacto">
+    <h2>Contacto</h2>
+    <form action="mailto:info@alcobara.es" method="post" enctype="text/plain">
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Mensaje:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>O contáctanos directamente:</p>
+    <p>Teléfono: +34 612245587</p>
+    <p>Email: alcobaraconstruccionessl@gmail.com</p>
+    <p>Dirección: España</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alcobara Construcciones S.L. Todos los derechos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/34600000000" target="_blank" title="Chatea con nosotros en WhatsApp">
+    💬
+  </a>
+</body>
+</html>
